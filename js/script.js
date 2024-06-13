@@ -13,15 +13,10 @@ function addElement () {
        lista.insertAdjacentHTML("beforeend", "<li><p>"+ tareas + "</li></p>")
        
     } else {
-        alert("Tienes que ingresar algún dato")
+        alert("Tienes que ingresar alguna informacion")
     }
 };
 
 botonAceptar.addEventListener("botonAceptar", addElement);
 
-
-
-
-
-  
 
