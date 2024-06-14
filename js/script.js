@@ -18,5 +18,3 @@ function addElement () {
 };
 
 agregar.addEventListener("click", addElement);
-
-
