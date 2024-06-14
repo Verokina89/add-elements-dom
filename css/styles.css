@@ -81,12 +81,12 @@ width: 100;
     font-size: 18px;
 }
 
-.box li:first-child {
+.box lista:first-child {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.box li:last-child {
+.box lista:last-child {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }

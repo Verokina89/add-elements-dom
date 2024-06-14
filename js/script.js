@@ -2,21 +2,21 @@
  //lista--> donde tiene que salir lo elementos
  //agregar --> boton click 
 
-const botonAceptar = document.getElementById("Aceptar");
+const botonAceptar = document.getElementById("agregar");
 const lista = document.getElementById("lista")
 
 
 function addElement () {
-    const tareas = prompt("ingresa tu nombre")
+    const tareas = prompt("ingresa lo que quieres recordar")
     if(tareas) {
       
        lista.insertAdjacentHTML("beforeend", "<li><p>"+ tareas + "</li></p>")
        
     } else {
-        alert("Tienes que ingresar alguna informacion")
+        alert("Tienes que ingresar alguna información")
     }
 };
 
-botonAceptar.addEventListener("botonAceptar", addElement);
+agregar.addEventListener("click", addElement);
 
 
